@@ -1,0 +1,45 @@
+.card{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.1s
+}
+.card > img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.2rem;
+}
+.card:hover{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    cursor: pointer;
+    border: 0.2px solid rgb(221, 221, 221);
+    margin-top: 25px;
+    border-radius: 0.1rem;
+    box-shadow: 0px 0px 7px 10px #fafafa;
+    /* transition: width, ease-in; */
+}
+.yelloRating{
+    display: inline-block;
+    background-color: #db7c38;
+    color: #fff;
+    padding: 4px;
+}
+.greeenRating{
+    display: inline-block;
+    background-color: #48c479;
+    color: #fff;
+    padding: 4px;
+}
+/* .yelloRating:before {
+    content: "\E938";
+}
+.greeenRating:before{
+    content: "\E938";
+} */
